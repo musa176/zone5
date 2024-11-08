@@ -1,0 +1,48 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+    for (let i = 1; i <= 10; i++) {
+    console.log(i);
+}
+
+for (let i = 1; i <= 20; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+}
+
+    
+    function isPrime(number) {
+    if (number <= 1) return false;
+    
+    for (let i = 2; i < number; i++) {
+        if (number % i === 0) {
+            return false;
+        }
+    }
+    return true;
+}
+
+console.log(isPrime(7));
+
+
+
+
+
+
+
+
+
+
+
+</script>
+    
+    <title></title>
+</head>
+<body>
+
+</body>
+</html>
